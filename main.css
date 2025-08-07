@@ -144,21 +144,25 @@ nav ul li a:hover{
 
 .section1:hover{
     background-color: #7ab07f;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.1s ease;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    
 }
 
 .section1 img{
     margin-left: 0%;
-    margin-right: 75%;
+    margin-right: 0%;
     width: 200px;
     height: 200px;
-    margin-bottom: 2em;
-    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s ease;
 }
 .section1 h2{
     margin-left: 0%;
-    margin-right: 75%;
+    margin-right: 0%;
     font-size: 2em;
     font-weight: bold;
     margin-bottom: 0em;
@@ -169,10 +173,10 @@ nav ul li a:hover{
 }
 .section1 p{
     margin-left: 0%;
-    margin-right: 75%;
+    margin-right: 0%;
     font-size: 1em;
-    margin-bottom: 0em;
-    margin-top: 3em;
+    margin-bottom: 5em;
+    margin-top: 2em;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -185,3 +189,81 @@ nav ul li a:hover{
     margin-top:0em;
 }
 
+
+
+
+.section2{
+    margin-left: 70%;
+    margin-right: 3%;
+    background-color: #7ab07fb7;
+    background-repeat: no-repeat;          /* prevents tiling*/ 
+    background-position: center;          /* centers the image */ 
+    height: 500px;                           /* or however tall you want */ 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;                         /* if you want to center content */ 
+    align-items: center;
+    border:5px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40em;
+    margin-top: 0em;
+    
+      
+}
+
+.section2:hover{
+    background-color: #7ab07f;
+    transition: background-color 0.1s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    
+}
+
+.section2 img{
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0em;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.1s ease;
+}
+.section2 h2{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0em;
+    margin-top: 7em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.section2 p{
+    margin-left: 0%;
+    margin-right: 0%;
+    font-size: 1em;
+    margin-bottom: 5em;
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.section2 dt{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3em;
+    margin-top:0em;
+}
+
+.section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2%; /* spacing between the two sections */
+    margin: 2em 3%;
+}
