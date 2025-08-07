@@ -71,3 +71,42 @@ nav ul li a:hover{
     color: rgb(45, 86, 70); /* This is the txt color when it does hoverover it */
     transition: .2s;
 }
+
+.Hero{
+    margin-left: -1%;
+    margin-right: -1%;
+    background-image: url('assets/the.png');
+    background-size: 100%;
+    background-repeat: no-repeat;          /* prevents tiling */
+    background-position: center;          /* centers the image */
+    height: 400px;                           /* or however tall you want */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;                         /* if you want to center content */
+    align-items: center;
+
+    color: rgb(255, 255, 255);  
+}
+.Hero h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top:0em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Hero h3{
+    font-size: 1.2em;
+    text-align: center;
+    font-size: sans-serif, small;
+    margin-bottom: 9em;
+    margin-top:0em;
+}
+.Hero p{
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3em;
+    margin-top:0em;
+}
+
