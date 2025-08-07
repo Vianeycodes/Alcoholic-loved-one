@@ -14,7 +14,7 @@ nav{
     margin-right: -1%;
     border-bottom: white solid 3px;
  
-   display:flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
       
@@ -25,9 +25,19 @@ nav p{
     font: times new roman;
     text-align: left;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 2.8em;
     color: rgb(255, 255, 255);
    
+}
+
+nav img{
+    width: 80px;
+    height: 80px;
+    align-items: left;
+}
+
+.logo{
+    align-items: left;
 }
 nav ul{
         list-style: none;
