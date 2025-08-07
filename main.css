@@ -1,12 +1,22 @@
 
+nav{
 
+    background-color: #030303;
+    text-align: center;
+    text-color: white;
+}
 p{
 
     color: pink;
  }
 
-.gray {
+.section1a {
      color: gray;
 }
-
-  
+.section1b {
+     color: green;
+}
+.section2a {
+     color: blue;
+}
+.section2b {
