@@ -98,22 +98,18 @@ nav ul li a:hover{
     margin-bottom: 8em;
     margin-top:0em;
     text-align: center;
-
-    font: times new roman;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
 .Hero h3{
     font-size: 1.3em;
     text-align: center;
-    font-size: sans-serif, small;
     margin-bottom: 10em;
     margin-top: -10em;
 }
 .Hero p{
     font-size: 1.2em;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     margin-bottom: 8em;
     margin-top:0em;
 }
@@ -123,14 +119,6 @@ nav ul li a:hover{
 /* ---------------------Section cards----------------------- */
 
 .sideall{
-
-    /*
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-    margin: 0 auto; */
 
     display:flex;
     flex-wrap :wrap;
@@ -166,7 +154,7 @@ text-align: center;
 }
 
 .cards img {
-    border: 4px solid rgb(255, 255, 255);
+    border: 3px solid rgba(255, 255, 255, 0.411);
     border-radius: 50%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     width: 200px;
@@ -174,10 +162,35 @@ text-align: center;
 }
 
 .cards h2 {
-    font-size: 1.5em;
-    margin-top:-3em;
-    word-wrap:break-word
+    font-size: 1.7em;
+    margin-top:-2.5em;
+    color:  rgb(248, 241, 232)
     
+}
+
+.cards p {                     /* -----middle sectio----- */
+    font-size: 2em;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    font-weight: bold;
+ 
+     /* ----txt color middle----- */
+     background: linear-gradient(to left, rgb(67, 74, 93), rgb(148, 127, 102));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    
+    
+    
+   
+}
+
+.cards figcaption {
+    font-size: 1.2em;
+    font-style: bold;
+    color:  rgb(254, 252, 250)
+    
+   
 }
 
 
