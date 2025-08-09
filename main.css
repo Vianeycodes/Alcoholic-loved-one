@@ -214,6 +214,7 @@ text-align: center;
     color: #206126b7;
     
 }
+/* ----txt in heading in express ----- */
 .Big{
     font-size: 2.3em;
 }
@@ -224,4 +225,11 @@ text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    border-bottom: solid rgba(72, 158, 63, 0.409)
+    border-bottom: solid rgba(72, 158, 63, 0.439)
+}
+
+.Express p{
+    font-size: 1.6em;
+    text-align: left;
+    color:rgb(8, 50, 38);
+}
