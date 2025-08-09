@@ -134,29 +134,34 @@ nav ul li a:hover{
 
     display:flex;
     flex-wrap :wrap;
-    gap: 2em;
+    gap: 4em;
     justify-content: center;
 }
 
 .cards {
 scroll-margin-top: 8rem;
-width:min(100%, 350px);
+margin: 1.5em;
+margin-top: 2em;
+width:300px;
+height:380px ;
 background-color: #7ab07fb7;
 border: 5px solid rgb(255, 255, 255);
-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 color : rgb(255, 255, 255);
 border-radius: 10px;
-padding: 4em;
+padding: 6.3em;
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 2em;
+justify-content: space-between;
+text-align: center;
 
 }
 
 .cards figure {
     display: flex;
     flex-flow:column nowrap;
+    align-items:center
    
 }
 
@@ -164,13 +169,15 @@ gap: 2em;
     border: 4px solid rgb(255, 255, 255);
     border-radius: 50%;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 200px;
 }
 
 .cards h2 {
     font-size: 1.5em;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 0.5em;
+    margin-top:-3em;
+    word-wrap:break-word
+    
 }
 
 
